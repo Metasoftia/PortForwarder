@@ -25,19 +25,19 @@ A high-performance TCP port forwarder for Windows with optional IP whitelisting 
 ### Using Visual Studio Developer Command Prompt:
 
 ```cmd
-cl port_forwarder.c /Fe:port_forwarder.exe ws2_32.lib
+cl PortForwarder.c /Fe:PortForwarder.exe ws2_32.lib
 ```
 
 ### Using MinGW-w64:
 
 ```cmd
-gcc port_forwarder.c -o port_forwarder.exe -lws2_32
+gcc PortForwarder.c -o PortForwarder.exe -lws2_32
 ```
 
 ## Usage
 
 ```
-port_forwarder.exe <local_port> <remote_host> <remote_port> [allowed_ip] [-v]
+PortForwarder.exe <local_port> <remote_host> <remote_port> [allowed_ip] [-v]
 ```
 
 ### Parameters
@@ -53,29 +53,29 @@ port_forwarder.exe <local_port> <remote_host> <remote_port> [allowed_ip] [-v]
 #### Basic port forwarding (no IP filtering)
 Forward local port 8080 to remote server 192.168.1.100 port 80:
 ```cmd
-port_forwarder.exe 8080 192.168.1.100 80
+PortForwarder.exe 8080 192.168.1.100 80
 ```
 
 #### Port forwarding with IP whitelisting
 Only accept connections from 192.168.1.50:
 ```cmd
-port_forwarder.exe 8080 192.168.1.100 80 192.168.1.50
+PortForwarder.exe 8080 192.168.1.100 80 192.168.1.50
 ```
 
 #### Port forwarding with IP whitelisting and verbose logging
 Show rejected connection attempts:
 ```cmd
-port_forwarder.exe 8080 192.168.1.100 80 192.168.1.50 -v
+PortForwarder.exe 8080 192.168.1.100 80 192.168.1.50 -v
 ```
 
 #### Forward to remote hostname
 ```cmd
-port_forwarder.exe 3306 database.example.com 3306
+PortForwarder.exe 3306 database.example.com 3306
 ```
 
 #### SSH port forwarding with IP restriction
 ```cmd
-port_forwarder.exe 2222 10.0.0.50 22 192.168.1.100
+PortForwarder.exe 2222 10.0.0.50 22 192.168.1.100
 ```
 
 ## Use Cases
